@@ -1,2 +1,4 @@
 data/*
 amazon_reviews.zip
+__pycache__/
+*.png
