@@ -1,1 +1,2 @@
-data/amazon_products.csv
+data/*
+amazon_reviews.zip
