@@ -1,4 +1,2 @@
-data/*
-amazon_reviews.zip
-__pycache__/
-*.png
+data/amazon_products.csv
+notebooks/.ipynb_checkpoints/
