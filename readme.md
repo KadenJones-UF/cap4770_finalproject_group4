@@ -36,7 +36,7 @@ The goal of this project is to analyze and predict what makes a product successf
 
 ## Installation
 - Step 1: Clone the repo
-- Step 2: Download the data (see download_data.sh)
+- Step 2: Download the data and ensure it is within the /data folder. (see download_data.sh)
 - Step 3: Install dependencies (see requirements.txt)
 - Step 4: Run notebooks in order starting with preprocessing.ipynb
 
