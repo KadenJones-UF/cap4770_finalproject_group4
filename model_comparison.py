@@ -92,7 +92,11 @@ def main():
     results = []
 
     lr = build_logistic_regression()
+    start = time.time()
     lr.fit(X_train, y_train)
+    lr_time = time.time() - start
+
+    print(f"Logistic Regression Training Time: {lr_time:.4f}s")
 
     y_pred_lr = lr.predict(X_test)
     lr_metrics = get_metrics(y_test, y_pred_lr, "Logistic Regression")
@@ -106,7 +110,11 @@ def main():
     plot_lr_coefficients(lr, save_path="lr_coefficients.png")
 
     rf = build_random_forest()
+    start = time.time()
     rf.fit(X_train, y_train)
+    rf_time = time.time() - start
+
+    print(f"Random Forest Training Time: {rf_time:.4f}s")
 
     y_pred_rf = rf.predict(X_test)
     rf_metrics = get_metrics(y_test, y_pred_rf, "Random Forest")
