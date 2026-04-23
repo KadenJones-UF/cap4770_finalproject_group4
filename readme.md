@@ -12,10 +12,9 @@
 The goal of this project is to analyze and predict what makes a product successful on Amazon. This real world problem impacts sellers, businesses, and consumers on one of the largest e-commerce platforms. We will use techniques taught in class including classification and regression for prediction, and clustering for identifying patterns, and data visualizations to demonstrate findings. 
 
 ## Dataset
-- Source: Kaggle Amazon Products Dataset 2023 [Download here](https://www.kaggle.com/datasets/asaniczka/amazon-products-dataset-2023-1-4m-products?select=amazon_products.csv)
+- Source: [Kaggle Amazon Products Dataset 2023] (https://www.kaggle.com/datasets/asaniczka/amazon-products-dataset-2023-1-4m-products?select=amazon_products.csv)
 - Size: 1.4 million products
 - Features: star ratings, reviews, price, productID, best seller
-- *Note: Download the dataset from Kaggle and place "amazon_products.csv" and "amazon_categories.csv in the "/data" folder*
 
 ## Project Structure
 ```
