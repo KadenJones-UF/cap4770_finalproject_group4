@@ -18,14 +18,17 @@ The goal of this project is to analyze and predict what makes a product successf
 
 ## Project Structure
 ```
-/data
+cap4770_finalproject_group4/
+   model_comparison.py
+   utils.py
+cap4770_finalproject_group4/data/
     amazon_products.csv
     amazon_categories.csv
-
-/notebooks
+cap4770_finalproject_group4/notebooks/
     preprocessing.ipynb
     exploratory_data_analysis.ipynb
     xgboost_model.ipynb
+
 ```
 
 ## Tools & Technologies
