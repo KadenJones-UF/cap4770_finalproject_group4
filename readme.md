@@ -25,6 +25,8 @@ The goal of this project is to analyze and predict what makes a product successf
 
 /notebooks
     preprocessing.ipynb
+    exploratory_data_analysis.ipynb
+    xgboost_model.ipynb
 ```
 
 ## Tools & Technologies
@@ -34,8 +36,9 @@ The goal of this project is to analyze and predict what makes a product successf
 
 ## Installation
 Step 1: Clone the repo
-Step 2: Install dependencies
-Step 3: Run notebooks in order starting with preprocessing.ipynb
+Step 2: Download the data (see download_data.sh)
+Step 3: Install dependencies (see requirements.txt)
+Step 4: Run notebooks in order starting with preprocessing.ipynb
 
 ## Evaluation Metrics
 - Precision
