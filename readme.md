@@ -33,8 +33,13 @@ cap4770_finalproject_group4/notebooks/
 
 ## Tools & Technologies
 - Python
-- Pandas, Matplotlib
+- Pandas
+- Matplotlib
 - Jupyter Notebook
+- NumPy
+- seaborn
+- XGBoost
+- scikit-learn
 
 ## Installation
 - Step 1: Clone the repo
